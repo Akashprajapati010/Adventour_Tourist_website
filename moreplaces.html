@@ -1,0 +1,407 @@
+<html>
+<head>
+
+    <title>More places</title>
+</head>
+<body style="background-image:url(image/pexels-stephan-seeber-1054218.jpg); background-repeat: no-repeat; background-position: center center;
+background-size: cover;">
+
+<div id="nav">
+    <img src="image/20231128_194754.png">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">About Us</a></li>
+      <li><a href="index.html">Places</a></li>
+      <li><a href="index.html">Services</a></li>
+      <li><a href="index.html">Contact Us</a></li>
+      </ul>
+     
+    </div>
+    <!-- ----------------------CSS Start------------------------- -->
+    <style>        
+         @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=PT+Serif&family=Playfair+Display&display=swap');
+              
+          
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Nunito Sans', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'PT Serif', serif;
+            outline: none;
+            border: none;
+            text-decoration: none;
+
+        } 
+        #nav{
+            height:100px;
+            width:100%;
+            display:flex;
+            padding: 0px 10px;
+            gap: 330px;
+            align-items: center;
+            justify-content: flex-start;
+            position: fixed;
+            z-index: 99;
+            
+            
+        }
+        #nav ul li:hover{
+            transform: scale(1.2);
+        }
+        #nav img{
+            height: 100px;
+            margin-right: 20px;
+         }   
+         #nav ul li {
+             display:inline-block;
+             list-style: none;
+             margin: 10px 20px;
+             align-items: center;
+             
+             font-weight: 400;
+             
+             text-align: center;
+             font-size: 21px;
+             /* border: 1px solid rgb(31, 109, 226);
+             border-radius: 10px;
+             padding: 2px 5px 2px 5px;
+             background-color:rgb(31, 109, 226); */
+             
+         }
+        
+         #nav ul li a{
+             text-decoration: none;
+             position: relative; 
+             color:white;}
+
+             #nav ul li a::after{
+                content: '';
+                width: 0;
+                height:5px;
+                background:rgb(10, 97, 228);
+                /* background-color: white; */
+                position:absolute;
+                left:0;
+                bottom:-10px;
+                transition: 0.8s;
+            }
+            #nav ul li a:hover::after{
+                width:100%;
+            }
+              
+        section{
+            padding: 7rem 9%;
+        } 
+        .btn {
+            border: 1px solid red;
+            background-color: red;
+            color: white;
+            padding: 0px 5px 0px 5px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 20px rgba(45, 44, 44, 0.623);
+            margin-left: 110px;
+            font-size: 25px;
+        
+        }
+        .btn:hover{
+            background-color: green;
+            border: 1px solid green;
+        
+        }
+       .more .places{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+       }
+       .more .places .box{
+     
+        flex: 20rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.251);
+        background-color: rgb(105, 151, 183);
+       }
+       .more .places .box:hover{
+        transform:scale(1.04);
+    
+       }
+       .more .places .box img{
+        height: 18rem;
+        width: 100%;
+        object-fit: cover;
+       }
+      
+       .more .places .box .content{
+        padding: 1rem;
+       }
+       .more svg{
+       
+        color: red;
+        
+       }
+       .more .places .box .content i{
+        color: rgb(246, 255, 0);
+        font-size: 18px;
+        font-weight:lighter;
+       }
+       .more .places .box .content p{
+        font-size: 12px;
+        padding: 5px 0;
+       }
+       .more .places .box .content .price{
+        font-size: 1rem;
+       }
+       .more .places .box .content .price span{
+        font-size: .8rem;
+        color: rgb(24, 23, 23);
+        text-decoration: line-through;
+       }
+      
+    </style>
+        <!-- ---------------------------CSS End---------------------------- -->
+       
+      <section class="more">  
+        <div class="places">
+             <div class="box">
+                <img src="image/unnamed3.jpg">
+                <div class="content">
+           
+            <h3 class="bi bi-geo-alt-fill"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                  </svg> Kerala</h3>
+<p>The Padmanabhaswamy Temple is a Hindu God Vishnu,Temple in Thiruvananthapuram.</p>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <div class="star">4.8
+                
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-full"></i>
+            </div>
+            <div class="price"> $100.00 <span>$130.00</span></div>
+            <a href="booktrip.html" class="btn">book now</a>
+         </div>
+     </div>
+
+     <div class="box">
+        <img src="image/unnamed.webp">
+        <div class="content">
+   
+    <h3 class="bi bi-geo-alt-fill"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+          </svg> Jaipur, Rajasthanr</h3>
+    <p>The Hawa Mahal is considered one of the world's highest structures.</p>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="star">4.7
+        
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-full"></i>
+    </div>
+    <div class="price"> $100.00 <span>$130.00</span></div>
+    <a href="booktrip.html" class="btn">book now</a>
+ </div>
+</div>
+
+<div class="box">
+    <img src="image/unnamed (1).webp">
+    <div class="content">
+
+<h3 class="bi bi-geo-alt-fill"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+      </svg> Gwalior Fort, M.P</h3>
+<p>It has a lengthy and tumultuous history dating back to the year 525 AD. </p>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="star">4.6
+    
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-full"></i>
+</div>
+<div class="price"> $100.00 <span>$130.00</span></div>
+<a href="booktrip.html" class="btn">book now</a>
+</div>
+</div>
+
+<div class="box">
+    <img src="image/Virupaksha-Temple.jpg">
+    <div class="content">
+
+<h3 class="bi bi-geo-alt-fill"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+      </svg> Hampi, Karnataka </h3>
+<p>Ancient ruins are the focus the remains of a grand 14th-century city.</p>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="star">4.6
+    
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-full"></i>
+</div>
+<div class="price"> $100.00 <span>$130.00</span></div>
+<a href="booktrip.html" class="btn">book now</a>
+</div>
+</div>
+
+<div class="box">
+    <img src="image/Rani_ki_vav-Patan-Ahmedabad-Gujarat-O0A0110A.jpg">
+    <div class="content">
+
+<h3 class="bi bi-geo-alt-fill"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+      </svg> Rani ki Vav, Gujarat</h3>
+<p>Rani Ki Vav is a stepwell situated in the town of Patan in Gujarat, India. </p>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="star">4.7
+    
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-full"></i>
+</div>
+<div class="price"> $100.00 <span>$130.00</span></div>
+<a href="booktrip.html" class="btn">book now</a>
+</div>
+</div>
+
+<div class="box">
+    <img src="image/licensed-image.jpg">
+    <div class="content">
+
+<h3 class="bi bi-geo-alt-fill"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+      </svg> Taj Mahal,Agra</h3>
+<p>The Taj Mahal is an ivory-white marble mausoleum in Agra, Uttar Pradesh, India.</p>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="star">4.6
+    
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-full"></i>
+</div>
+<div class="price"> $100.00 <span>$130.00</span></div>
+<a href="booktrip.html" class="btn">book now</a>
+</div>
+</div>
+
+<div class="box">
+    <img src="image/Bhutan-1.jpg">
+    <div class="content">
+
+<h3 class="bi bi-geo-alt-fill"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+      </svg> Bhutan-China Border</h3>
+<p>Bhutan, the land that is boastful of its mighty mountains is the first “carbon negative” country in the whole wide world. </p>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="star">4.8
+    
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-full"></i>
+</div>
+<div class="price"> $100.00 <span>$130.00</span></div>
+<a href="booktrip.html" class="btn">book now</a>
+</div>
+</div>
+
+<div class="box">
+    <img src="image/Kashmir.jpg">
+    <div class="content">
+
+<h3 class="bi bi-geo-alt-fill"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+      </svg> Kashmir</h3>
+<p>Devoid of all the city chaos and the haste, there resides a paradise right in India. Kashmir,is the “Switzerland of India”.</p>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="star">4.7
+    
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-full"></i>
+</div>
+<div class="price"> $100.00 <span>$130.00</span></div>
+<a href="booktrip.html" class="btn">book now</a>
+</div>
+</div>
+
+<div class="box">
+    <img src="image/North-East.jpg">
+    <div class="content">
+
+<h3 class="bi bi-geo-alt-fill"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+      </svg> North East India</h3>
+<p>North East India encompasses natural gems of India Arunachal Pradesh, Manipur, Mizoram, Sikkim, Assam and Tripura.</p>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="star">4.7
+    
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-full"></i>
+</div>
+<div class="price"> $100.00 <span>$130.00</span></div>
+<a href="booktrip.html" class="btn">book now</a>
+</div>
+</div>
+   </div>
+
+  
+   </section>
+  
+
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" 
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" 
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+    
+</body>
+<script>
+    gsap.to("#nav",{
+        backgroundColor :"rgba(0,0,0,.955)",
+        // color:"white",
+        duration:0.5,
+        height:"80px",
+        scrollTrigger:{
+            trigger:"#nav",
+            scroller:"body",
+            // markers:true,
+            start:"top -10%",
+            end:"top -11%",
+            scrub:2,
+            
+        }
+        
+    })
+   </script>
+</html>

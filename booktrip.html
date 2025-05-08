@@ -1,0 +1,139 @@
+<html>
+<head>
+    
+    <title>Booking</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'montserrat';
+           
+        }
+        html,body{
+            height : 100%;
+            width : 100%;
+            
+        }
+        .book .row{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            align-items: center;
+            background: linear-gradient(360deg, rgb(16, 77, 110) 0%, rgb(13, 38, 63) 100%);
+            height: 100%;
+
+        }
+        .book .row .img a{
+            display: flex;
+            margin-left: 20px;
+            
+        }
+        .book .row .img img{
+            width:650px;
+           
+            height: 500px;  
+            display: flex;
+        }
+        .book .row .img h1{
+            margin-top: 10px;
+            margin-left: 135px;
+            font-size: 90px;
+            color: rgb(255, 255, 255);
+            
+        }
+        
+        .book .row form{
+            margin-right: 30px;
+            margin-left: 20px;
+            flex: 1 1 30rem;
+            padding: 2.5rem;
+            box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+            border-radius: 0rem 20rem 0rem 20rem;
+            background: linear-gradient(360deg, rgba(74, 229, 141, 0.862) 0%, rgba(139, 199, 55, 0.812) 100%);
+            box-shadow: 0px 0px 30px rgb(0, 0, 0);
+        }
+        .book .row form .inout-box{
+            padding: .5rem 0;
+            
+            
+        }
+        .book .row form .input-box input{
+        
+            width:90%;
+            padding: .8rem;
+            border: 1px solid rgba(0, 0, 0, 0);
+            font-size: 1.4rem;
+            color: #0d0d0d;
+            text-transform: none;
+            border-radius: 50px;
+            margin-left: 25px;
+           
+        }
+        .book .row form .input-box h3{
+            font-size: 1.3rem;
+            padding: 1rem 0;
+            color: #000000;
+        }
+        .book .row form .btn{
+            font-size: 1.8rem;
+            margin-top: 40px;
+            align-items: center;
+            margin-left: 280px;
+            padding: 5px 20px 5px 20px;
+            border-radius: 15px;
+            background: linear-gradient(360deg, rgb(10, 89, 132) 0%, rgb(15, 76, 137) 100%);
+            color: white;
+            border: none;
+
+        }
+        .book .row form .btn:hover{
+            color:black;
+            background: linear-gradient(360deg, rgb(240, 105, 15) 0%, rgb(227, 139, 15) 100%);
+            transform: scale(1.08);
+        }
+
+       
+
+    </style>
+    <section class="book">
+       <div class="row">
+        <div class="img">
+          <a href="index.html" ><svg xmlns="http://www.w3.org/2000/svg" height="45" width="45" fill="white" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M512 256A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM217.4 376.9L117.5 269.8c-3.5-3.8-5.5-8.7-5.5-13.8s2-10.1 5.5-13.8l99.9-107.1c4.2-4.5 10.1-7.1 16.3-7.1c12.3 0 22.3 10 22.3 22.3l0 57.7 96 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32l-96 0 0 57.7c0 12.3-10 22.3-22.3 22.3c-6.2 0-12.1-2.6-16.3-7.1z"/></svg>
+          </a>  
+            <h1>Book-Trip</h1>
+          <img src="image/man-doing-flight-boarding-5969276-4935638.png">
+        </div>
+        <form action="">
+            <div class="input-box">
+                <h3>Where to</h3>
+                <input type="text" placeholder="Place Of Name">
+            </div>
+            <div class="input-box">
+                <h3>How many</h3>
+                <input type="number" placeholder="Nnumber Of guests">
+            </div>
+            <div class="input-box">
+                <h3>Arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="input-box">
+                <h3>Leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="Book Now" onclick="myFunction()">
+        </form>
+       </div>
+    </section>
+</body>
+<script>
+    function myFunction(){
+        var txt;
+        if(confirm("Booking is Comfirm")){
+            txt = "Book Now";
+        }
+    }
+</script>
+</html>
