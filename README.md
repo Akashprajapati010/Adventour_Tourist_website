@@ -1,2 +1,8 @@
-# Adventour_Tourist_website
+# About the Project
+Adventour – Tourist Website
+This was my first web development project, created during my second year of college. It was built using HTML, CSS, and JavaScript, along with the GSAP is a framework-agnostic animation library. I developed this project as part of a college competition, where I scored 49 out of 50 marks.
+
+Working on Adventour gave me valuable hands-on experience, especially in designing responsive and visually appealing layouts using CSS. This project marked the beginning of my journey into web development and helped strengthen my interest in frontend technologies.
+# In website
 Adventour Website is design for the enjoy beautiful places and know the historical places also. we are here to provide the best facility and exprience that help to make goos trip forever. "At adventour travel, we are passionate about helping people explore the woeld. our mission is to make travel accessible and enjoyable for everyone".We believe that travel should be sustainable and responsible. We are committed to minimizing our impact on the environment and supporting local communities wherever we go. We also believe in providing our customers with exceptional service every step of the way.”
+
