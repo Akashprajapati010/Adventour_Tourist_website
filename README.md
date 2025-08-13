@@ -35,10 +35,7 @@ The Adventour website is designed to:
 
 ---
 
-## 🚀 How to Run Locally
-1. Clone the repository:
-   ```bash
-   git clone [your-repo-link]
+## 🚀 Images
 
 ![image alt](https://github.com/Akashprajapati010/Adventour_Tourist_website/blob/985663f2ef92ad52dd5c53a6c14ea6adedef50bf/image/Screenshot%202025-05-08%20230028.png)
 
