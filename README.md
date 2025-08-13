@@ -1,11 +1,44 @@
-# About the Project
-Adventour – Tourist Website
-This was my first web development project, created during my second year of college. It was built using HTML, CSS, and JavaScript, along with the GSAP is a framework-agnostic animation library. I developed this project as part of a college competition, where I scored 49 out of 50 marks.
+# 🌍 Adventour – Tourist Website
 
-Working on Adventour gave me valuable hands-on experience, especially in designing responsive and visually appealing layouts using CSS. This project marked the beginning of my journey into web development and helped strengthen my interest in frontend technologies.
-# In website
-Adventour Website is design for the enjoy beautiful places and know the historical places also. we are here to provide the best facility and exprience that help to make goos trip forever. "At adventour travel, we are passionate about helping people explore the woeld. our mission is to make travel accessible and enjoyable for everyone".We believe that travel should be sustainable and responsible. We are committed to minimizing our impact on the environment and supporting local communities wherever we go. We also believe in providing our customers with exceptional service every step of the way.”
+**Adventour** is a responsive and visually engaging tourist website designed to help people discover beautiful and historical places worldwide.  
+It was my **first web development project**, created during my second year of college as part of a **college competition**, where I scored **49/50 marks**.
 
+---
+
+## 📌 About the Project
+- **Technologies Used:**  
+  - HTML  
+  - CSS  
+  - JavaScript  
+  - [GSAP](https://greensock.com/gsap/) – A framework-agnostic animation library for smooth UI animations.
+- Developed with a focus on:
+  - **Responsive design** for multiple devices.
+  - **Attractive animations** using GSAP.
+  - **User-friendly navigation** and clear layouts.
+
+---
+
+## 🎯 Purpose
+The Adventour website is designed to:
+- Showcase **beautiful destinations** and **historical places**.
+- Provide **travel information** to help plan memorable trips.
+- Encourage **sustainable and responsible tourism**.
+- Support **local communities** by promoting culturally rich locations.
+
+---
+
+## 💡 Key Highlights
+- **Responsive Design** – Works seamlessly across desktops, tablets, and mobile devices.
+- **Smooth Animations** – Implemented with GSAP for engaging user interactions.
+- **Informative Sections** – Highlights both scenic and historical travel spots.
+- **Commitment to Sustainability** – Content emphasizes eco-friendly travel.
+
+---
+
+## 🚀 How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone [your-repo-link]
 
 ![image alt](https://github.com/Akashprajapati010/Adventour_Tourist_website/blob/985663f2ef92ad52dd5c53a6c14ea6adedef50bf/image/Screenshot%202025-05-08%20230028.png)
 
